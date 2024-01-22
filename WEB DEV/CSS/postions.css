@@ -1,0 +1,87 @@
+/* *{
+    box-sizing: border-box;
+} */
+
+nav{
+    background-color: red;
+    width: 100vw;
+    height: 5rem;
+    position: sticky;
+    top: 0px;
+}
+
+.box-1{
+width: 5rem;
+height: 17rem;
+background-color:#000;
+position: relative;
+top: 3rem;
+left: 5rem;
+}
+
+.box-2{
+    height: 3rem;
+    width: 4rem;
+    background: #000;
+    position: absolute;
+    top:12rem;
+}
+.box-3{
+    /* position:fixed; */
+    width: 20rem;
+    height: 15rem;
+    background-color: green;
+}
+
+/* transform */
+.box-4{
+    padding: 2rem 4rem;
+    background: teal;
+    transition: all 5s ease;
+}
+.box-4:hover{
+    background: thistle;
+    margin-top: 13px;
+    color: #fff;
+}
+.box-5{
+    width: 14rem;
+    height: 2rem;
+    background-color: blue; 
+    transition: all 2s;
+}
+.box-5:hover{
+    /* transform: perspective(400px); */
+    /* transform: rotate(360deg); */
+    transform: translateY(-10px);
+}
+.chat {
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    right: 10px;
+    bottom:10px;
+}
+.my-chat{
+    color: white;
+}
+.chat2 {
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    right: 10px;
+    top: 100px;
+}
+.our-chat{
+    color: white;
+}

@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+}
+.body{
+    margin: 0px;
+    padding: 0px;
+
+}
+.container{
+    display: grid;
+    grid-template-columns: 29% 69%;
+    /* grid-template-columns: auto auto; */
+    grid-gap: 21px;
+}
+.figure{
+    background-color: rgb(243, 236, 222);
+    padding: 50px
+}
+.container img{
+    width: 100%;
+    
+}

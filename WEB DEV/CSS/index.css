@@ -1,0 +1,56 @@
+.wrapper {
+  height: 300px;
+  width: 300px;
+  background: black;
+  color: white;
+  /* margin is external distance */
+  /* margin:100px 200px 300px 100px */
+  /* margin top right bottom left */
+  /* N/B if you give it one value it applies to all the side */
+  /* fist value applies to top and bottom: */
+  margin-top: 100px;
+  margin-left: 200px;
+  /* padding: 100px 200px 100px 300px; */
+  padding: 200px;
+  text-align: center;
+  display: inline-block;
+  border: 20px solid yellow;
+  
+
+
+
+
+  
+}
+
+.wrapper-1 {
+height: 300px;
+width: 300px;
+background: blue;
+color: white;
+margin-top: 100px;
+margin-left: 200px;
+/* padding:100px 200px 100px 300px; */
+padding: 200px;
+text-align: center;
+display: inline-block;
+border: 20px solid yellow;
+}
+
+.wrapper-2 {
+    height: 300px;
+    width: 300px;
+    background: blue;
+    color: white;
+    margin-top: 100px;
+    margin-left: 200px;
+    /* padding:100px 200px 100px 300px; */
+    padding: 200px;
+    text-align: center;
+    display: inline-block;
+    border: 20px solid yellow;
+    }
+p {
+  font-size: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

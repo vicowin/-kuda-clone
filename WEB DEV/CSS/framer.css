@@ -1,0 +1,319 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    /* border: 1px solid red; */
+
+
+}
+
+.con{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+}
+
+body{
+    max-width: 100vw;
+}
+a{
+    color:black
+}
+
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 100vw;
+    height: 3rem;
+    background: whitesmoke;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.465);
+    box-shadow: 0 5px 10px .5px rgba(128, 128, 128, 0.465);
+    z-index: 5;
+   
+
+}
+.logo{
+    font-size: 1.5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+ /* a{
+   padding: 0 1rem;
+} */
+
+.links{
+    display: flex;
+    gap: 2rem;
+}
+.links a{
+    font-size: 1.2rem;
+    font-family: sans-serif;
+}
+
+.nav-end{
+    display: flex;
+    gap: 1rem;
+}
+
+.btn:first-child{
+    padding: .5rem .8rem;
+    border:none;
+    border-radius: 30px;
+}
+.btn:nth-child(2){
+    padding: .5rem 1.8rem;
+    border:none;
+    border-radius: 30px;
+    color: white;
+    background: #000;
+}
+
+.ham{
+
+    display: none;
+}
+
+/* mobile nav */
+/* .mobile-nav{
+   
+} */
+.mobile-nav .links{
+   display: none;
+}
+
+/* hero */
+.hero{
+    display: flex;
+    flex-direction: column;
+    max-width: 100vw;
+}
+.hero-top{
+    display: flex;
+    justify-content: space-around;
+}
+
+.img-holder{
+    width: 10rem;
+    height: 12rem;
+    transition: all 3s;
+}
+
+.img-holder:nth-child(2){
+    transform: translateY(-40px);
+    transform: translateX(-80px);
+}
+.img-holder:nth-child(1){
+    transform: translateY(60px) !important;
+    transform: translateX(-80px);
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+
+.hero-text{
+    text-align: center;
+    margin-top:1.5rem;
+    display: flex;
+    flex-direction: column;
+}
+.title h1{
+    font-size: 3.2rem;
+    text-align: center;
+    padding-left: 1.6rem !important;
+    
+}
+.hero-text p{
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 300;
+  
+  
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* gap:10rem */
+    
+
+}
+.title .img-holder{
+    width: 8rem;
+    height: 7rem;
+    transform: translateX(90px);
+}
+
+.title .img-holder img{
+    width: 100%;
+    height: 100%; 
+    /* align-items: flex-end; */
+}
+
+.hero-bottom{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* gap:13rem */
+}
+.hero-bottom button{
+    padding: 1.5rem 4rem;
+    height: max-content !important;
+    color:beige;
+    background: black;
+    border-radius: 50px;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+/* port foilio section */
+.wrapper{
+    background-color: rgb(234, 85, 85) !important;
+}
+.portfolio{
+    display: flex;
+    justify-content: space-around;
+    padding: 15rem;
+    height: 60rem;
+    box-shadow: 4px 3px 4px 5px rgba(0,0,0,1);
+    border: 1px solid grey;
+   /* flex-wrap: wrap; */
+    
+
+}
+
+.text-section{
+    flex:1;
+    /* display: flex;
+    justify-content: space-around;
+    flex-direction: column */
+    background: white;
+    padding: 1.2rem 2rem;
+    box-shadow: 2px 3px 10px 5px rgba(0,0,0,.8) ; 
+    border-radius: 10px;
+}
+
+.text-section h1{
+    font-size: 3rem;
+    font-family: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 3rem;
+    padding-bottom: 4rem;
+}
+
+.text-section p{
+    line-height: 3rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.port-image{
+    flex:1;
+    /* width:inherit; */
+    height: 100%;
+    background: white;
+    padding: 1rem 1.5rem;
+    box-shadow: 2px 3px 10px 5px rgba(0,0,0,.8) ; 
+
+}
+
+.port-image img{
+    width: 100%;
+    height: 100%
+}
+/* important exaMPLE */
+/* .test{
+    color:blue !important
+}
+
+.test{
+    color:green
+} */
+/* make navbar responsive */
+/* media query */
+@media(max-width:425){
+
+    .hero{
+        gap:10rem
+    }
+    .hero-top .img-holder{
+        height: 5rem;
+        width: 5rem;
+    }
+
+    .hero .img-holder img{
+        object-fit: contain;
+    }
+
+    
+
+}
+/* screen sixe 768px */
+@media(max-width:768px){
+    .links,.nav-end{
+        display: none;
+    }
+
+    .ham{
+        display: block;
+    }
+
+    .ham:active .mobile-nav{
+        display: block;
+    }
+    .mobile-nav{
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        height: 10rem;
+        background: red;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .mobile-nav .links{
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .title .img-holder{
+    display: none;}
+    .hero-top{
+        gap:4rem
+    }
+    .hero-top .img-holder{
+        width: 8rem;
+        height: 8rem;
+    }
+
+    .hero-bottom .img-holder{
+        width: 8rem !important;
+        height: 8rem !important;
+    }
+    .hero-bottom button{
+        padding: 1rem 3rem !important;
+        width: unset !important;
+        font-size: 1.4rem;
+        
+    }
+    .portfolio{
+        width:100%
+    }
+    .port-image{
+        flex: unset;
+    }
+    .text-section{
+        flex:unset
+    }
+}
+
+

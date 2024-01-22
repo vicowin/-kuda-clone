@@ -1,0 +1,130 @@
+\* {
+ box-sizing: border-box; 
+}
+
+.form{
+  width: 400px;
+  height: 285px;
+  background: white;
+  margin: auto;
+  display: block;
+  margin-top: 150px;
+  /* border: 20px double transparent; */
+  box-shadow: 4px 4px 3px 2px rgb(34, 30, 30);
+}
+h2{
+  background: rgb(6, 200, 6);
+  width: 400px;
+  height: 50px;
+  margin-top: auto;
+  padding-top: 20px;
+  padding-bottom: 5px;
+  text-align: center;
+  font-size: 32px;
+  font-family: sans-serif;
+  letter-spacing: 2px;
+color: white;
+border-top-right-radius: 7px;
+border-top-left-radius: 7px;
+/* box-shadow: 0px 4px 10px 3px lightgreen; */
+box-shadow: 0px 7px 0px 0px lightgreen;
+}
+
+input{
+  width: 160px;
+  height: 40px;
+  margin-left: 15px;
+  margin-right: 5px;
+  border-radius: 7px;
+  padding-left: 10px;
+  font-size: 22px;
+  font-family: serif;
+}
+.Address{
+  width: 360px;
+  height:40px;
+  margin: 20px;
+  margin-left: 15px;
+  text-align: left;
+
+}
+
+.button{
+  width: 380px;
+  height: 40px;
+  background:  rgb(6, 200, 6);
+  color: white;
+  font-size: 20px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  margin: 20px;
+  margin-top: 10px;
+  margin-left: 15px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+
+/* *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+html {
+height: 100%;
+}
+
+body {
+  min-height: 100%;
+  border: 5px dashed black;
+  background-image:url("img_girl.jpg");}
+
+
+.header {
+  padding: 90px;
+  text-align: center;
+  background: rgb(123, 123, 3);
+  color: black;
+}
+.header h1 {
+  font-size: 100px;
+}
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  word-spacing: 5px;
+  font-weight: bold;
+  text-align: center;
+  font-size: 50px;
+  /* border-style: solid; */
+  /* border-color: #333; */
+  /* padding: 14px 20px;
+  text-decoration: aliceblue;
+} */
+/* create three unequal columns that floats next to each other */
+/* .column {
+    float: left;
+    padding: 10px;
+    height: 500px;
+}
+/* left and right column */
+/* .column.side {
+    width: 20%;
+} */
+/* .column.middle {
+    width: 60%;
+} */ 
+/* clear float after the columns */
+/* .row:after {
+    content: "";
+    display: table;
+    clear: both;
+} */

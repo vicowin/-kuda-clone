@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../CSS/register.css">
+    <link rel="shortcut icon" href="../IMG/img_girl.jpg" type="image/x-icon">
+</head>
+<body>
+    <!-- HOW TO CREAT A FORM -->
+    <body style="background-color: powderblue;">
+     <h1 style="color: brown;">REGISTRATION</h1>
+     <!-- <P>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, dolores voluptas accusantium facere magnam in eos amet voluptatem. Nisi nam, distinctio qui voluptas animi placeat aperiam hic error ad aliquam?</P> -->
+  
+     <form>
+        <div class="FRONTCONTROL">
+            <label for="Fullname">Fullname</label>
+        </div>
+
+
+    
+    
+        <div>
+            <input type="text" name="Fullname" id="Fullname" placeholder="victor enefiok ">
+        </div>
+
+        <div class="FRONTCONTROL">
+            <label for="email">Email</label>
+        </div>
+
+        <div class="FRONTCONTROL">
+             <input type="email" name="fullname" id="email" placeholder="victorenefiok97@gmail.com"required>
+        </div>
+
+        <div class="FRONTCONTROL">
+            <label for="password">password</label>
+        </div>
+
+        <div class="FRONTCONTROL">
+            <input type="password" name="password" id="password"> <button type="button"> show</button>
+        </div>
+
+        <div class="FRONTCONTROL">
+            <label for="DOB">DOB</label>
+        </div>
+
+        <div class="FRONTCONTROL">
+            <input type="date" name="dob" id="dob">
+        </div>
+
+        <div class="FRONTCONTROL">
+            <label for="phone">phone</label>
+        </div>
+
+        <div class="FRONTCONTROL">
+            <input type="tel" name="phone" id="phone">
+        </div>
+
+        
+        <div class="FRONTCONTROL">
+            <label for="Services">Services</label>
+        </div>
+        <!-- how to code dropdown -->
+        <div class="FRONTCONTROL">
+            <select name="Services" id="Services">
+            <option>--- select an option---</option>
+            <option value="Traning">Traning</option>
+            <option value="Build a software">Build a software</option>
+            <option value="Marketing">Marketing</option>
+
+            </select>
+        </div>
+
+        <div class="FRONTCONTROL">
+            <label for="Gender">Gender</label>
+        </div>
+
+        <div class="FRONTCONTROL">
+             <label for="Male">Male</label>
+            <input type="radio" name="Gender" id="Male">
+        </div>
+
+        <div class="FRONTCONTROL">
+            <label for="Female">Female</label>
+           <input type="radio" name="Gender" id="Female">
+       </div>
+
+       
+        <div class="FRONTCONTROL">
+             <label for="Perfrences">Perfrences</label>
+        </div>
+        <div class="FRONTCONTROL">
+
+            <label for="Home">Home Delevery</label>
+            <input type="checkbox" name="Home" id="Home">
+
+            <label for="Site">On site Delevery</label>
+            <input type="checkbox" name="Site" id="site">
+
+            <label for="Home">online Delevery</label>
+            <input type="checkbox" name="Online" id="Online">
+        </div>
+    
+        <div>
+            <h3>Upload your CV</h3>
+            <label for="cv">CV</label>
+            <input type="file" name="cv" id="cv">
+        </div>
+        <div>
+            <h3>Upload your Credentials</h3>
+            <label for="Credentials">Credentials</label>
+            <input type="file" name="Credentials" id="Credentials" multiple>
+        </div>
+
+        <div class="FRONTCONTROL">
+            <div>
+                <label for="img">leave a message</label>
+            </div>
+            <textarea name="msg" id="msg" cols="80" rows="20" maxlength="20" required></textarea>
+
+        </div>
+    
+        <div class="action">
+            <button type="submit">submit</button>
+            <!-- <button type="submit" disabled>submit</button> -->
+        </div>
+    </form>
+</body>
+</html>
